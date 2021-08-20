@@ -26,7 +26,7 @@ int main(void)
 	{
 		printfFishes();
 		printf("which fish bowl would you water? ");
-		scanf("%d", &num);
+		scanf_s("%d", &num);
 
 		//check input
 		if (num < 1 || num>6)
